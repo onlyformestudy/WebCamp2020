@@ -8,8 +8,9 @@
 </head>
 <body>
 
-<%
-response.sendRedirect("http://www.google.com");
-%>
+<% out.print("Welcome to jsp"); %>
+<br></br>
+Current Time: <%=java.util.Calendar.getInstance().getTime()%>
+
 </body>
 </html>
